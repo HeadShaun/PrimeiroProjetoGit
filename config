@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origen"]
+	url = https://github.com/HeadShaun/FirstGitHub.git
+	fetch = +refs/heads/*:refs/remotes/origen/*
+[remote "origin"]
+	url = https://github.com/HeadShaun/PrimeiroProjetoGit.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
